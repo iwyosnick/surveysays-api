@@ -2,6 +2,9 @@ openapi: 3.0.1
 info:
   title: SurveySays API
   version: '1.0'
+servers:
+  - url: https://surveysays-425506.appspot.com  # Replace with your actual base URL
+    description: Production server
 paths:
   /clean_and_code_survey_data:
     post:
